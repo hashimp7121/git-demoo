@@ -1,13 +1,8 @@
 package com.testwebservice.git_demo;
 
-/**
- * Hello world!
- *
- */
 public class App {
 	public void addData(String data) {
-		System.out.println("Data =" + data);
-		if(data.equals("Hashim")) {
+		if (data.equals(Constants.DATA_NAME)) {
 			System.out.println("Success");
 		}
 	}
